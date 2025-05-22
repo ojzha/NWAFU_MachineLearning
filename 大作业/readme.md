@@ -1,6 +1,5 @@
  <center><font size='5'><b>机器学习大作业说明</b></font></center>
 
-​										                                       **小组成员：GCX**
 
 ### 本实验源码均为Python代码,推荐新建一个Python虚拟环境,并安装本实验相关库
 
