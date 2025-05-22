@@ -1,0 +1,31 @@
+============= Structure Preserving Unsupervised Feature Selection =============
+
+Dataset: MNIST
+Dataset size: 50 samples x 300 features
+Number of classes: 6
+
+--- Feature Selection Results ---
+Baseline (all features): ACC = 0.5353, NMI = 0.4799
+
+Number of Features | ACC      | NMI      
+----------------------------------
+50                 | 0.109667 | 0.026711
+100                | 0.150000 | 0.120567
+150                | 0.229333 | 0.187970
+200                | 0.325333 | 0.240121
+250                | 0.389333 | 0.287493
+300                | 0.465333 | 0.402741
+
+Best number of features: 300
+Best feature selection performance: ACC = 0.465333, NMI = 0.402741
+
+--- Parameter Sensitivity Analysis ---
+Best ACC parameters: alpha = 1000.0, beta = 0.01, ACC = 0.574667
+Best NMI parameters: alpha = 1000.0, beta = 0.01, NMI = 0.508948
+
+--- Recommendations ---
+Recommended number of features: 300
+Recommended parameters: alpha = 1000.0, beta = 0.01
+Expected performance: ACC = 0.574667, NMI = 0.508948
+
+============= End of Report =============
